@@ -304,7 +304,7 @@ a{
 
 .bottom-table{
   justify-content: center;
-  padding: 5px;
+  padding: 10px;
   border-bottom: 1px solid #d9d9dc;
   align-items: center;
 }
@@ -331,7 +331,6 @@ a{
   width: 100%;
   font-size: 14px;
   font-weight: 600;
-
 }
 
 .row-col .right{
@@ -348,5 +347,96 @@ a{
   background-color: #0061ff ;
   color: white;
   padding: 10px 40px;
+}
+
+.partner{
+  margin-top: 150px ;
+}
+
+.partner img{
+  width: 60% ;
+}
+
+.partner .text-partner{
+  width: 40%;
+}
+
+.text-partner{
+  padding: 70px 50px;
+}
+
+.text-partner h3{
+  font-weight: 800;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.text-partner p{
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 35px;
+}
+
+.text-partner a{
+  border: 1px solid black;
+  padding: 10px;
+  color: black;
+}
+
+.text-partner a:hover{
+  background-color: lightgray;
+}
+/* /Ultima tabella */
+
+/* Card */
+
+.container-wrap{
+  max-width: 1000px;
+  margin: 40px auto;
+}
+
+.container-wrap h1{
+  font-size: 2.5rem;
+  margin-top: 165px;
+}
+
+.cover{
+  margin-top: 90px;
+  flex-wrap: wrap;
+}
+
+.card{
+  width: calc(100% / 3);
+  padding: 10px;
+}
+
+.card img{
+  width: 100%;
+}
+
+.card h3{
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding-bottom: 40px;
+}
+
+.card p{
+  font-weight: 600;
 
 }
+
+/* Ultima section */
+
+.dropbox-business h1{
+  width: 60%;
+  font-size: 2.4rem;
+  font-weight: 800;
+  margin-top: 200px;
+}
+
+.dropbox-business p{
+  margin-top: 80px ;
+  text-decoration: underline;
+}
+
+
