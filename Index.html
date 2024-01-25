@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.css' integrity='sha512-tx5+1LWHez1QiaXlAyDwzdBTfDjX07GMapQoFTS74wkcPMsI3So0KYmFe6EHZjI8+eSG0ljBlAQc3PQ5BTaZtQ==' crossorigin='anonymous'/>
 
   <link rel="stylesheet" href="Assets/Style/Styles.css">
@@ -21,7 +21,9 @@
       <div class="content d-flex">
 
         <div class="left d-flex">
-          <img src="Assets/img/logo-small.png" alt="logo-small">
+          <div class="logo">
+            <img src="Assets/img/logo-small.png" alt="logo-small">
+          </div>
 
           <nav>
             <ul>
@@ -84,6 +86,7 @@
   <!-- /header -->
 
 <main>
+  <!-- Titolo e checkbox -->
   <div class="plan">
     <div class="main-container">
 
@@ -98,50 +101,280 @@
           <i class="fa-regular fa-circle"></i>&nbsp;Fatturazione annuale
         </div>
       </div>
+  <!-- /Titolo e checkbox -->
 
+  <!-- Tabella -->
       <div class="table d-flex">
+
+        <!-- colonna uno -->
         <div class="colum d-flex">
 
+          <!-- Sopra Tabella -->
           <div class="top-table d-flex">
-            <div>
               <i class="fa-solid fa-user"></i>
               <p>Singolo</p>
+          </div>
+          <!-- /Sopra Tabella -->
+
+          <div class="text-table d-flex">
+
+            <!-- Titolo -->
+            <h3>Professional</h3>
+            <!-- /Titolo -->
+
+          <ul class="price">
+            <li>
+              <p>&euro; 12.00</p>
+              <span>/mese</span>
+            </li>
+          </ul>
+
+          
+          <!-- Cosa comprende l'offerta -->
+          <div class="pack">
+
+            <div>
+              <i class="fa-solid fa-user"></i>
+              <span>1 utente</span>
             </div>
+
+            <div class="d-flex">
+              <i class="fa-solid fa-folder"></i>
+              <span>&nbsp;</span>
+              <p class="inline-block">
+                5 TB di spazio di archiviazione sicuro
+              </p>
+            </div>
+
+            <div class="d-flex">
+              <i class="fa-solid fa-share-nodes"></i>
+              <span>&nbsp;</span>
+              <p>
+                Funzioni di produttivitá premium e condivisione file semplice e sicura
+              </p>
+            </div>
+
+          </div>
+          <!-- /Cosa comprende l'offerta -->
+
+          <!-- links -->
+            <div class="main-trial d-flex">
+              <a href="#">Prova gratis per 30 giorni</a>
+            </div>
+
+            <div id="buy-now">oppure <a href="#">acquista ora</a></div>
+          <!-- /links -->
+
+          <div class="linea"></div>
+
+          <div class="points">
+
+          <h4>Punti Salienti del piano</h4>
+
+            <div class="d-flex">
+              <i class="fa-solid fa-check"></i>
+              <span>&nbsp;</span>
+              <p>Invia file fino a 100 GB con Dropbox Transfert</p>
+            </div>
+
+            <div class="d-flex">
+              <i class="fa-solid fa-check"></i>
+              <span>&nbsp;</span>
+              <p>Cartelle offline su dispositivi mobili</p>
+            </div>
+
           </div>
 
-          <div>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur iste velit ut repellendus voluptatem dolores quidem incidunt deserunt harum, voluptates ipsam, non perspiciatis id voluptas? Sed quaerat hic atque possimus.
-            </p>
           </div>
 
         </div>
+        <!-- colonna uno -->
 
+        <!-- colonna due -->
         <div class="colum d-flex">
 
           <div class="top-table d-flex">
-            <div>
               <i class="fa-solid fa-users"></i>
               <p>Team</p>
+          </div>
+
+          <div class="text-table d-flex">
+
+            <!-- Titolo -->
+            <h3>Advanced</h3>
+            <!-- /Titolo -->
+
+            <ul class="price">
+            <li>
+              <p>&euro; 18.00</p>
+              <span>/utente/mese</span>
+            </li>
+            </ul>
+
+          
+            <!-- Cosa comprende l'offerta -->
+            <div class="pack">
+
+            <div>
+              <i class="fa-solid fa-user"></i>
+              <span>3 o piú utenti</span>
+            </div>
+
+            <div class="d-flex">
+              <i class="fa-solid fa-folder"></i>
+              <span>&nbsp;</span>
+              <p>
+                Tutto lo spazio di cui ha bisogno il tuo team
+              </p>
+            </div>
+
+            <div class="d-flex">
+              <i class="fa-solid fa-share-nodes"></i>
+              <span>&nbsp;</span>
+              <p>
+                Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team
+              </p>
+            </div>
+
+            </div>
+            <!-- /Cosa comprende l'offerta -->
+
+              <!-- links -->
+              <div class="main-trial d-flex">
+              <a href="#">Prova gratis per 30 giorni</a>
+              </div>
+
+              <div id="buy-now">oppure <a href="#">acquista ora</a></div>
+              <!-- /links -->
+
+            <div class="linea"></div>
+
+            <div class="points">
+              <h4>Punti Salienti del piano</h4>
+
+                <div class="d-flex">
+                  <i class="fa-solid fa-check"></i>
+                  <span>&nbsp;</span>
+                  <p>Nessun limite di spazio per i file</p>
+                </div>
+
+                <div class="d-flex">
+                  <i class="fa-solid fa-check"></i>
+                  <span>&nbsp;</span>
+                  <p>Cartelle offline su dispositivi mobili</p>
+                </div>
+
+                <div class="d-flex">
+                  <i class="fa-solid fa-check"></i>
+                  <span>&nbsp;</span>
+                  <p>Risparmio del 50% rispetto alle iscrizioni singole</p>
+                </div>
+
+                <div class="d-flex">
+                  <i class="fa-solid fa-check"></i>
+                  <span>&nbsp;</span>
+                  <p>Possibilitá di inserire nuovi membri del team</p>
+                </div>
+
+                <div class="d-flex">
+                  <i class="fa-solid fa-check"></i>
+                  <span>&nbsp;</span>
+                  <p>Gestione dei permessi in base ai ruoli</p>
+                </div>
             </div>
           </div>
 
-
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,   laborum veniam id quasi nesciunt facilis est ipsa nisi. Earum ad  doloremque natus qui animi! Ex vel aliquid facere culpa! Ab!</p>
         </div>
+        <!-- /colonna due -->
 
+        <!-- colonna tre -->
         <div class="colum d-flex">
 
           <div class="top-table d-flex">
-            <div>
               <i class="fa-solid fa-building"></i>
               <p>Azienda</p>
-            </div>
           </div>
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Assumenda molestias cupiditate voluptatibus temporibus doloribus   asperiores eligendi totam, doloremque provident quidem quisquam   pariatur ullam officiis quis, quasi dicta exercitationem! Ullam,  illo!</p>
+          <div class="text-table d-flex">
+
+            <!-- Titolo -->
+            <h3>Enterprise</h3>
+            <!-- /Titolo -->
+
+            <ul class="price">
+            <li>
+              <p>Contattaci</p>
+              <span>-</span>
+            </li>
+            </ul>
+
+          
+            <!-- Cosa comprende l'offerta -->
+            <div class="pack">
+
+            <div>
+              <i class="fa-solid fa-user"></i>
+              <span>10 o piú utenti</span>
+            </div>
+
+            <div class="d-flex">
+              <i class="fa-solid fa-folder"></i>
+              <span>&nbsp;</span>
+              <p>
+                Soluzioni personalizzabili per la tua azienda
+              </p>
+            </div>
+
+            <div class="d-flex">
+              <i class="fa-solid fa-share-nodes"></i>
+              <span>&nbsp;</span>
+              <p>
+                Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala
+              </p>
+            </div>
+
+            </div>
+            <!-- /Cosa comprende l'offerta -->
+
+              <!-- links -->
+              <div class="main-trial d-flex">
+              <a href="#">Prova gratis per 30 giorni</a>
+              </div>
+
+              <div id="buy-now">oppure <a href="#">acquista ora</a></div>
+              <!-- /links -->
+
+            <div class="linea"></div>
+
+            <div class="points">
+              <h4>Punti Salienti del piano</h4>
+
+                <div class="d-flex">
+                  <i class="fa-solid fa-check"></i>
+                  <span>&nbsp;</span>
+                  <p>Cartelle offline su dispositivi mobili</p>
+                </div>
+
+                <div class="d-flex">
+                  <i class="fa-solid fa-check"></i>
+                  <span>&nbsp;</span>
+                  <p>Servizio assistenza 24/h</p>
+                </div>
+
+                <div class="d-flex">
+                  <i class="fa-solid fa-check"></i>
+                  <span>&nbsp;</span>
+                  <p>Possibilitá di personalizzazione totale</p>
+                </div>
+
+              </div>
+          </div>
+
         </div>
+        <!-- /colonna tre -->
+
       </div>
+  <!-- /Tabella -->
 
     </div>
   </div>
