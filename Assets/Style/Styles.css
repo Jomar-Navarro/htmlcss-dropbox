@@ -7,3 +7,37 @@
 body{
   font-family: 'Open Sans', sans-serif;
 }
+
+.d-flex{
+  display: flex;
+}
+
+li{
+  list-style: none;
+  display: inline-block;
+}
+
+/* Header */
+
+header{
+  position: sticky;
+  top: 0;
+  background-color: brown;
+  height: 80px;
+}
+
+
+.content{
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 20px;
+}
+
+.content img{
+  padding-right: 40px;
+}
+
+.content nav ul li{
+  padding-right: 40px;
+}
