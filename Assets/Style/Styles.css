@@ -187,6 +187,7 @@ a{
 
 }
 
+/* Le 3 tabelle */
 .colum{
   flex-direction: column;
   width: 300px;
@@ -200,7 +201,6 @@ a{
 .top-table{
   display: inline-block;
   text-align: center;
-  justify-content: center;
   border-bottom: 1px solid #d9d9dc;
   padding: 5px;
 }
@@ -209,6 +209,7 @@ a{
   display: inline-block;
 }
 
+/* Contenuto tabella */
 .text-table{
   flex-direction: column;
   margin: 50px 30px;
@@ -288,4 +289,42 @@ a{
   color:#0061ff ;
   padding-top: 3px;
   font-size: 1rem;
+}
+/* /Contenuto tabella */
+/* /Le 3 tabelle */
+
+/* Ultima tabella */
+.row{
+  flex-direction: column;
+  border: 1px solid #d9d9dc;
+
+  width: 100%;
+  margin-top: 50px;
+}
+
+.bottom-table{
+  justify-content: center;
+  padding: 5px;
+  border-bottom: 1px solid #d9d9dc;
+}
+
+.row-col{
+  padding: 50px 30px;
+}
+
+.row-col .left{
+  width: 60%;
+}
+
+.col .left p{
+  width: 100%;
+  font-size: 14px;
+}
+
+.col .right{
+  width: 40%;
+}
+
+.col .right p{
+  width: 100%;
 }
