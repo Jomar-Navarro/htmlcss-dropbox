@@ -306,25 +306,47 @@ a{
   justify-content: center;
   padding: 5px;
   border-bottom: 1px solid #d9d9dc;
+  align-items: center;
 }
 
 .row-col{
-  padding: 50px 30px;
+  padding: 40px 30px;
 }
 
 .row-col .left{
-  width: 60%;
+  width: 70%;
 }
 
-.col .left p{
+.row-col .left h4{
+  font-size: 1.5rem;
+}
+
+.row-col .left h5{
+  font-weight: 800;
+  font-size: 14px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+.row-col .left p{
   width: 100%;
   font-size: 14px;
+  font-weight: 600;
+
 }
 
-.col .right{
-  width: 40%;
+.row-col .right{
+  justify-content: center;
+  text-align: center;
+  width: 30%;
 }
 
-.col .right p{
+.row-col .right p{
   width: 100%;
+}
+
+.row-col .right p a{
+  background-color: #0061ff ;
+  color: white;
+  padding: 10px 40px;
+
 }
