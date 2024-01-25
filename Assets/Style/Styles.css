@@ -25,9 +25,10 @@ a{
   margin: 0 auto;
 }
 
+
 /* Header */
 
-header{
+.top{
   position: sticky;
   top: 0;
   background-color: white;
@@ -132,8 +133,63 @@ header{
 .arrow{
   font-size: 3rem;
 }
-
-
 /* /jumbotron */
-
 /* /Header */
+
+/* main */
+
+.main-container{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.plan{
+  margin-top: 100px ;
+}
+
+.plan .main-container h2{
+  font-size: 2.5rem;
+}
+
+
+
+.plan .main-container .check{
+  display: inline-block;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.plan .main-container .full{
+  display: inline-block;
+  padding-right: 50px;
+}
+
+.plan .main-container .checkbox .full i{
+  color: #0061ff;
+}
+
+.plan .main-container .checkbox .check i{
+  color: #d0d0d3;
+}
+
+.colum{
+  flex-direction: column;
+  width: 300px;
+  border: 1px solid black;
+}
+
+.table{
+  justify-content: space-between;
+}
+
+.top-table{
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+.top-table p{
+  display: inline-block;
+}
