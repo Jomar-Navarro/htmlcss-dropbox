@@ -33,9 +33,6 @@ img{
   max-width: 100%;
 }
 
-ul li a{
-  color: white;
-}
 
 /* Header */
 
@@ -62,14 +59,10 @@ ul li a{
   padding-right: 40px;
 }
 
-.content nav{
-  align-items: center;
-}
-
 .content nav ul li{
+  display: inline-block;
   font-weight: 500;
   padding-right: 40px;
-  display: inline-block;
 }
 
 .content nav ul li a{
@@ -79,6 +72,11 @@ ul li a{
 .left nav ul li a:hover{
   padding-bottom: 34px;
   border-bottom: 3px solid black;
+}
+
+.left a:hover{
+  cursor: pointer;
+  opacity: 0.7;
 }
 
 .right span a{
@@ -111,10 +109,7 @@ ul li a{
 
 .jumbo .container h1{
   font-size: 4.7rem;
-}
-
-.col{
-  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .col p{
@@ -141,11 +136,8 @@ ul li a{
   color: white;
 }
 
-.cancel{
+.cancel, .cancel a{
   padding-bottom: 70px;
-}
-
-.cancel a{
   color: black;
 }
 
@@ -220,10 +212,6 @@ ul li a{
   padding: 5px;
 }
 
-.top-table p{
-  display: inline-block;
-}
-
 /* Contenuto tabella */
 .text-table{
   flex-direction: column;
@@ -264,8 +252,7 @@ ul li a{
   background-color: #0061ff;
   justify-content: center;
   padding: 10px;
-  margin-top: 50px;
-  margin-bottom: 35px;
+  margin: 50px 0 35px 0;
 }
 
 .main-trial a{
@@ -273,13 +260,12 @@ ul li a{
   font-size: 14px;
 }
 
-#buy-now{
+#buy-now {
   font-size: 0.9rem;
 }
 
 #buy-now a{
   text-decoration: underline;
-
 }
 
 .linea{
@@ -288,11 +274,8 @@ ul li a{
   border: 1px solid #d9d9dc;
 }
 
-.points{
+.points, .points h4{
   font-size: 14px;
-}
-
-.points h4{
   padding-bottom: 10px;
 }
 
@@ -312,7 +295,6 @@ ul li a{
 .row{
   flex-direction: column;
   border: 1px solid #d9d9dc;
-
   width: 100%;
   margin-top: 50px;
 }
@@ -404,7 +386,6 @@ ul li a{
 /* /Ultima tabella */
 
 /* Card */
-
 .container-wrap{
   max-width: 1000px;
   margin: 40px auto;
@@ -423,10 +404,7 @@ ul li a{
 .card{
   width: calc(100% / 3);
   padding: 10px;
-}
-
-.card img{
-  width: 100%;
+  font-weight: 600;
 }
 
 .card h3{
@@ -434,14 +412,10 @@ ul li a{
   font-weight: 800;
   padding-bottom: 40px;
 }
+/* /Card */
 
-.card p{
-  font-weight: 600;
 
-}
-
-/* Penultima section */
-
+/* Sponsor section */
 .dropbox-business h1{
   width: 60%;
   font-size: 2.4rem;
@@ -454,7 +428,6 @@ ul li a{
   text-decoration: underline;
   margin-bottom: 150px;
 }
-/* Sponsor section */
 .sponsor .big-square{
   width: calc(100% / 3);
   aspect-ratio: 1/1;
@@ -670,15 +643,12 @@ footer{
 .top-foot ul li a{
   line-height: 30px;
   font-weight: 600;
+  color: white;
 }
 
 .bot-foot{
   color: grey;
   padding-bottom: 40px;
-}
-
-.bot-foot i{
-  text-align: center;
 }
 
 .mid-fot .linea{
