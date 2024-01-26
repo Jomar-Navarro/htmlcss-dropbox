@@ -76,6 +76,11 @@ ul li a{
   color: black;
 }
 
+.left nav ul li a:hover{
+  padding-bottom: 34px;
+  border-bottom: 3px solid black;
+}
+
 .right span a{
   background-color:#0061ff;
   justify-content: center;
@@ -89,6 +94,11 @@ ul li a{
 .right a:hover{
   cursor: pointer;
   opacity: 0.7;
+}
+
+.right nav ul li a:hover{
+  padding-bottom: 30px;
+  border-bottom: 3px solid black;
 }
 /* jumbotron */
 
@@ -501,24 +511,31 @@ ul li a{
   text-align: center;
   width: 50%;
   height: 20%;
+  filter: brightness(0) invert(1);
 }
 
 .square-2 img{
   text-align: center;
   width: 50%;
   height: 50%;
+  filter: brightness(0) invert(1);
+
 }
 
 .square-3 img{
   text-align: center;
   width: 50%;
-  height: 20%;
+  height: 10%;
+  filter: brightness(0) invert(1);
+
 }
 
 .square-4 img{
   text-align: center;
   width: 50%;
   height: 20%;
+  filter: brightness(0) invert(1);
+
 }
 
 .square-5{
@@ -565,23 +582,31 @@ ul li a{
   text-align: center;
   width: 50%;
   height: 20%;
+  filter: brightness(0) invert(1);
+
 }
 
 .square-6 img{
   text-align: center;
   width: 50%;
   height: 50%;
+  filter: brightness(0) invert(1);
+
 }
 
 .square-7 img{
   text-align: center;
   width: 50%;
   height: 40%;
+  filter: brightness(0) invert(1);
+
 }
 
 .square-8 img{
   width: 50%;
   height: 50%;
+  filter: brightness(0) invert(1);
+
 }
 
 .middle{
@@ -637,6 +662,7 @@ ul li a{
   font-weight: 600;
 }
 
+/* Domande frequenti */
 .question{
   padding: 160px;
 }
@@ -648,21 +674,34 @@ ul li a{
   padding-bottom: 70px;
 }
 
-.last .domande i{
-  justify-content: center;
-  align-content: center;
-}
-
 .last .domande{
   padding: 45px 0;
   border-bottom: 1px solid grey;
   justify-content: space-between;
+}
+
+.last .domande span{
   font-weight: 800;
 }
 
-.last .domande i{
-  padding-right: 40px;
+.show-text span{
+  padding-right: 300px;
 }
+
+.hidden-text{
+  display: none;
+  font-weight: 600;
+}
+
+.show-text:hover .hidden-text{
+  display: block;
+  padding-top: 20px;
+}
+
+
+
+/* /Domande frequenti */
+
 
 /* footer */
 
