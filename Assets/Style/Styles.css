@@ -573,12 +573,12 @@ img{
 .square-7 img{
   text-align: center;
   width: 50%;
-  height: 20%;
+  height: 40%;
 }
 
 .square-8 img{
   width: 50%;
-  height: 20%;
+  height: 50%;
 }
 
 .middle{
@@ -601,4 +601,62 @@ img{
 
 .overflow{
   overflow: auto;
+}
+
+.porta{
+  background-color: #b4d0e7;
+  height: 350px;
+  padding: 135px;
+}
+
+.porta .main-container .left{
+  width: 60%;
+}
+
+.porta .main-container .right{
+  width: 40%;
+}
+
+.porta .main-container .left h2{
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #61082b;
+}
+
+.porta .main-container .right p{
+  text-align: center;
+}
+
+.porta .main-container .right p a{
+  background-color: white;
+  padding: 10px 50px;
+  color: black;
+  font-weight: 600;
+}
+
+.question{
+  padding: 160px;
+}
+
+.last h2{
+  font-size: 2.5rem;
+  font-weight: 800;
+  border-bottom: 1px solid grey;
+  padding-bottom: 70px;
+}
+
+.last .domande i{
+  justify-content: center;
+  align-content: center;
+}
+
+.last .domande{
+  padding: 45px 0;
+  border-bottom: 1px solid grey;
+  justify-content: space-between;
+  font-weight: 800;
+}
+
+.last .domande i{
+  padding-right: 40px;
 }
