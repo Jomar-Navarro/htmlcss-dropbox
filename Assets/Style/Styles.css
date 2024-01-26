@@ -30,7 +30,7 @@ a{
 }
 
 img{
-  width: 100%;
+  max-width: 100%;
 }
 
 ul li a{
@@ -454,7 +454,7 @@ ul li a{
   text-decoration: underline;
   margin-bottom: 150px;
 }
-/* Penultima section */
+/* Sponsor section */
 .sponsor .big-square{
   width: calc(100% / 3);
   aspect-ratio: 1/1;
@@ -464,149 +464,94 @@ ul li a{
 .big-square{
   flex-wrap: wrap;
   width: calc(100% / 2);
-  height: calc(100% /2);
 }
 
-.square-1{
+.square{
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: calc(100% / 2);
+  aspect-ratio: 1/1;
+}
+
+.designit{
   background-color: #a2d39b;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: calc(100% / 2);
-  height: calc(100% /2);
-  aspect-ratio: 1/1;
 }
 
-.square-2{
-  background-color: #61082b;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: calc(100% / 2);
-  height: calc(100% /2);
-  aspect-ratio: 1/1;
-}
-
-.square-3{
-  background-color: #0093ce;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: calc(100% / 2);
-  height: calc(100% /2);
-  aspect-ratio: 1/1;
-}
-
-.square-4{
-  background-color: red;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: calc(100% / 2);
-  height: calc(100% /2);
-  aspect-ratio: 1/1;
-}
-
-.square-1 img{
-  text-align: center;
+.designit img{
   width: 50%;
   height: 20%;
   filter: brightness(0) invert(1);
 }
 
-.square-2 img{
-  text-align: center;
+.arizona{
+  background-color: #61082b;
+}
+
+.arizona img{
   width: 50%;
   height: 50%;
   filter: brightness(0) invert(1);
-
 }
 
-.square-3 img{
-  text-align: center;
+.florida{
+  background-color: #0093ce;
+}
+
+.florida img{
   width: 50%;
   height: 10%;
   filter: brightness(0) invert(1);
-
 }
 
-.square-4 img{
-  text-align: center;
-  width: 50%;
-  height: 20%;
-  filter: brightness(0) invert(1);
-
-}
-
-.square-5{
-  background-color: #a2d39b;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: calc(100% / 2);
-  height: calc(100% /2);
-  aspect-ratio: 1/1;
-}
-
-.square-6{
-  background-color: #61082b;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: calc(100% / 2);
-  height: calc(100% /2);
-  aspect-ratio: 1/1;
-}
-
-.square-7{
-  background-color: #0093ce;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: calc(100% / 2);
-  height: calc(100% /2);
-  aspect-ratio: 1/1;
-}
-
-.square-8{
+.topps{
   background-color: red;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: calc(100% / 2);
-  height: calc(100% /2);
-  aspect-ratio: 1/1;
 }
 
-.square-5 img{
-  text-align: center;
+.topps img{
   width: 50%;
   height: 20%;
   filter: brightness(0) invert(1);
-
 }
 
-.square-6 img{
-  text-align: center;
+.world{
+  background-color: red;
+}
+
+.world img{
+  width: 50%;
+  height: 20%;
+  filter: brightness(0) invert(1);
+}
+
+.hearst{
+  background-color: #b4d0e7;
+}
+
+.hearst img{
   width: 50%;
   height: 50%;
   filter: brightness(0) invert(1);
-
 }
 
-.square-7 img{
-  text-align: center;
+.planet{
+  background-color: #0d2481;
+}
+
+.planet img{
   width: 50%;
   height: 40%;
   filter: brightness(0) invert(1);
-
 }
 
-.square-8 img{
+.channel{
+background-color: yellow;
+}
+
+.channel img{
   width: 50%;
   height: 50%;
   filter: brightness(0) invert(1);
-
 }
 
 .middle{
@@ -630,6 +575,7 @@ ul li a{
 .overflow{
   overflow: auto;
 }
+/* /Sponsor section */
 
 .porta{
   background-color: #b4d0e7;
