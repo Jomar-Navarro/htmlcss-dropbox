@@ -29,7 +29,9 @@ a{
   margin: 0 auto;
 }
 
-
+img{
+  width: 100%;
+}
 
 
 /* Header */
@@ -425,7 +427,7 @@ a{
 
 }
 
-/* Ultima section */
+/* Penultima section */
 
 .dropbox-business h1{
   width: 60%;
@@ -437,6 +439,166 @@ a{
 .dropbox-business p{
   margin-top: 80px ;
   text-decoration: underline;
+  margin-bottom: 150px;
+}
+/* Penultima section */
+.sponsor .big-square{
+  width: calc(100% / 3);
+  aspect-ratio: 1/1;
+  height: auto;
 }
 
+.big-square{
+  flex-wrap: wrap;
+  width: calc(100% / 2);
+  height: calc(100% /2);
+}
 
+.square-1{
+  background-color: #a2d39b;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: calc(100% / 2);
+  height: calc(100% /2);
+  aspect-ratio: 1/1;
+}
+
+.square-2{
+  background-color: #61082b;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: calc(100% / 2);
+  height: calc(100% /2);
+  aspect-ratio: 1/1;
+}
+
+.square-3{
+  background-color: #0093ce;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: calc(100% / 2);
+  height: calc(100% /2);
+  aspect-ratio: 1/1;
+}
+
+.square-4{
+  background-color: red;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: calc(100% / 2);
+  height: calc(100% /2);
+  aspect-ratio: 1/1;
+}
+
+.square-1 img{
+  text-align: center;
+  width: 50%;
+  height: 20%;
+}
+
+.square-2 img{
+  text-align: center;
+  width: 50%;
+  height: 50%;
+}
+
+.square-3 img{
+  text-align: center;
+  width: 50%;
+  height: 20%;
+}
+
+.square-4 img{
+  text-align: center;
+  width: 50%;
+  height: 20%;
+}
+
+.square-5{
+  background-color: #a2d39b;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: calc(100% / 2);
+  height: calc(100% /2);
+  aspect-ratio: 1/1;
+}
+
+.square-6{
+  background-color: #61082b;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: calc(100% / 2);
+  height: calc(100% /2);
+  aspect-ratio: 1/1;
+}
+
+.square-7{
+  background-color: #0093ce;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: calc(100% / 2);
+  height: calc(100% /2);
+  aspect-ratio: 1/1;
+}
+
+.square-8{
+  background-color: red;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: calc(100% / 2);
+  height: calc(100% /2);
+  aspect-ratio: 1/1;
+}
+
+.square-5 img{
+  text-align: center;
+  width: 50%;
+  height: 20%;
+}
+
+.square-6 img{
+  text-align: center;
+  width: 50%;
+  height: 50%;
+}
+
+.square-7 img{
+  text-align: center;
+  width: 50%;
+  height: 20%;
+}
+
+.square-8 img{
+  width: 50%;
+  height: 20%;
+}
+
+.middle{
+  overflow: auto;
+  padding: 50px;
+}
+
+.middle img{
+  width: 250px;
+}
+
+.middle .linea{
+  width: 100px;
+}
+
+.middle p{
+  font-weight: 600;
+  padding-bottom: 50px;
+}
+
+.overflow{
+  overflow: auto;
+}
